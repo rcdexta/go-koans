@@ -21,7 +21,7 @@ const (
 	__delete_me__    bool    = false
 )
 
-var __runner__ runner = nil
+var __runner__ Runner = nil
 
 func TestKoans(t *testing.T) {
 	aboutBasics()
